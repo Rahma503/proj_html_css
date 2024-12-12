@@ -47,20 +47,23 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('./images/blue-toned-set-paper-sheets-with-copy-space.jpg') no-repeat;
+    /* background: url('./images/blue-toned-set-paper-sheets-with-copy-space.jpg') no-repeat; */
+    background-color: rgb(190, 223, 244);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
 }
-.main1 img{
-    width: 100%;
+.image{
+    clip-path: circle();
+    position: relative;
+    margin-left: 200px;
 }
 
 .main1 h2{
     color: rgba(7, 60, 139, 0.853);
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
 }
 .main1 span{
     display: inline-block;
@@ -188,6 +191,9 @@
 
 .img-proj img{
     width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
 }
 
 .proj-info{
@@ -224,6 +230,8 @@
 .footer .social_icons .fab{
     color:rgba(255, 255, 255, 0.853);
 }
+
+
 
 
 @media (max-width:1023px){
