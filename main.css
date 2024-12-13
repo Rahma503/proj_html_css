@@ -56,7 +56,7 @@
 }
 .image{
     clip-path: circle();
-    position: relative;
+    /* position: relative; */
     margin-left: 200px;
 }
 
@@ -186,10 +186,9 @@
         
         transform: scale(1.1);
     
-    
 }
 
-.img-proj img{
+.img-proj img , #work img{
     width: 100%;
     height: 100%;
     object-fit: cover; 
@@ -260,9 +259,9 @@
     .logo{
         margin-right: 120px;
     }
-    .main1 img{
+    .image{
         background-size: cover;
-        width: 150%;
+        width: 50%;
     }
 
 }
@@ -291,9 +290,9 @@
     .logo{
         margin-right: 80px;
     }
-    .main1 img{
-        background-size: cover;
-        width: 150%;
+    .image{
+        background-size: cover; 
+         width: 80px; 
     }
 
 }
