@@ -244,6 +244,23 @@
     color:rgba(255, 255, 255, 0.853);
 }
 
+#work .icon_ischool{
+    background-color: rgb(98, 130, 247);
+    border-radius: 15px;
+}
+
+#work .icon_sm{
+    border-radius: 15px;
+
+    background-color: rgb(196, 207, 239);
+}
+
+#work .icon_iti{
+    border-radius: 15px;
+
+    background-color: rgb(196, 207, 239);
+}
+
 
 
 
