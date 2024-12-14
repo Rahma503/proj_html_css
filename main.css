@@ -249,16 +249,17 @@
     border-radius: 15px;
 }
 
-#work .icon_sm{
+.fa-graduation-cap
+{
     border-radius: 15px;
-
-    background-color: rgb(196, 207, 239);
+    font-size: 5rem;
+    color:rgb(60, 66, 237) ;
+    
 }
 
 #work .icon_iti{
     border-radius: 15px;
 
-    background-color: rgb(196, 207, 239);
 }
 
 
